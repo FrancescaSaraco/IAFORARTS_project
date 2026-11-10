@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Cache locali di matplotlib / jupyter
+.mplconfig/
+.jupyter_runtime/
+
+# Dataset Kaggle (49 MB): non va su GitHub, si scarica da Kaggle
+data/*.csv
+data/processed/
+
+# Modelli addestrati
+*.pth
+
+# Mac OS
+.DS_Store
